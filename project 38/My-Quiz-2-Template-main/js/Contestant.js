@@ -39,8 +39,8 @@ class Contestant {
     // });
 
 
-     database.ref('/').update({
-       contestantCount: count
+    database.ref('/').update({
+      contestantCount: count
      });
 
   }
